@@ -45,6 +45,7 @@ format:
   html:
     highlight-style: solarized
     theme: cosmo
+    css: styles.cssgi
     code-copy: true
     code-overflow: wrap
     toc: true
