@@ -1,0 +1,54 @@
+project:
+  type: website
+  preview:
+    port: 3333
+
+website:
+  title: "MUSA 550 Quarto Template"
+  site-url: "https://musa-550-fall-2023.github.io/quarto-website-starter" 
+  repo-url: https://github.com/MUSA-550-Fall-2023/quarto-website-starter 
+  repo-actions: [edit, issue]
+
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "&copy; CC-Nick Hand, 2023"
+
+  sidebar:
+    logo: "images/course-icon.png"
+    pinned: true
+    align: center
+    tools: 
+      - icon: globe
+        href: https://nickhand.dev
+        text: "Personal Website"
+      - icon: github
+        href: https://github.com/MUSA-550-Fall-2023/
+        text: "MUSA 550 GitHub"
+      - icon: twitter
+        href: https://twitter.com/nicholashand
+        text: "Nick Hand Twitter"         
+
+    style: "docked"
+    search: true
+    collapse-level: 2
+    contents:
+      - href: index.qmd
+        text: Welcome
+      - about.qmd
+      - section: analysis/index.qmd
+        contents: 
+          - analysis/1-static-images.ipynb
+          - analysis/2-altair-hvplot.ipynb
+          - analysis/3-folium.ipynb
+
+format:
+  html:
+    highlight-style: solarized
+    theme: cosmo
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+
+
+

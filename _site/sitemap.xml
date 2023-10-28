@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/about.html</loc>
+    <lastmod>2023-10-28T17:25:14.817Z</lastmod>
+  </url>
+  <url>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/analysis/3-folium.html</loc>
+    <lastmod>2023-10-28T17:25:14.188Z</lastmod>
+  </url>
+  <url>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/analysis/2-altair-hvplot.html</loc>
+    <lastmod>2023-10-28T17:25:13.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/analysis/1-static-images.html</loc>
+    <lastmod>2023-10-28T17:25:13.775Z</lastmod>
+  </url>
+  <url>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/index.html</loc>
+    <lastmod>2023-10-28T17:25:14.559Z</lastmod>
+  </url>
+</urlset>
