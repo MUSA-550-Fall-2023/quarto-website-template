@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MUSA 550 Quarto Template - About</title>
+<title>MUSA 550 Quarto Template - About me</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,7 +60,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.cssgi">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">About me</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./about.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">About</span></a>
+ <span class="menu-text">About me</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -125,19 +125,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./analysis/1-static-images.html" class="sidebar-item-text sidebar-link">
+  <a href="./analysis/1-python-code-blocks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Python code blocks</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./analysis/2-static-images.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Showing static visualizations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./analysis/2-altair-hvplot.html" class="sidebar-item-text sidebar-link">
+  <a href="./analysis/3-altair-hvplot.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Altair and Hvplot Charts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./analysis/3-folium.html" class="sidebar-item-text sidebar-link">
+  <a href="./analysis/4-folium.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Interactive Maps with Folium</span></a>
   </div>
 </li>
@@ -156,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">About me</h1>
 </div>
 
 
@@ -171,7 +177,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>About this site</p>
+<!-- Use a grid -->
+<div class="grid">
+<!-- Left column has a width of 4/12 and shows a picture of me -->
+<div class="g-col-4">
+<p><img src="https://www.nickhand.dev/assets/profile.056b70e4.jpg" class="img-fluid" style="width:3in"></p>
+</div>
+<!-- Text gets a column with width 8/12 -->
+<div class="g-col-8">
+<p>On this about page, you might want to add more information about yourself, the project, or course. Any helpful context could go here!</p>
+<p>My name is Nick Hand, the instructor for the course. You can find more information about me on my <a href="https://www.nickhand.dev/">personal website</a>.</p>
+<p>This site is an example site showing how to use Quarto for the final project for <a href="https://musa-550-fall-2023.github.io/">MUSA 550</a>, during fall 2023.</p>
+<p>Adipisicing proident minim non non dolor quis. Pariatur in ipsum aliquip magna. Qui ad aliqua nulla excepteur dolor nostrud quis nisi. Occaecat proident eiusmod in cupidatat. Elit qui laboris sit aliquip proident dolore. Officia commodo commodo in eiusmod aliqua sint cupidatat consectetur aliqua sint reprehenderit.</p>
+<p>Occaecat incididunt esse et elit adipisicing sit est cupidatat consequat. Incididunt exercitation amet dolor non sit anim veniam veniam sint velit. Labore irure reprehenderit ut esse. Minim quis commodo nisi voluptate.</p>
+</div>
+</div>
 
 
 
@@ -415,7 +435,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">© CC-Nick Hand, 2023</div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/MUSA-550-Fall-2023/quarto-website-starter/edit/main/about.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/MUSA-550-Fall-2023/quarto-website-starter/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/MUSA-550-Fall-2023/quarto-website-starter/blob/main/about.qmd" class="toc-action">View source</a></p></div></div></div>
     <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>

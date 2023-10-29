@@ -97,7 +97,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
-<link rel="stylesheet" href="styles.cssgi">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -109,7 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../analysis/index.html">Analysis</a></li><li class="breadcrumb-item"><a href="../analysis/3-folium.html">Interactive Maps with Folium</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../analysis/index.html">Analysis</a></li><li class="breadcrumb-item"><a href="../analysis/4-folium.html">Interactive Maps with Folium</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -148,7 +148,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
+ <span class="menu-text">About me</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -162,19 +162,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../analysis/1-static-images.html" class="sidebar-item-text sidebar-link">
+  <a href="../analysis/1-python-code-blocks.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Python code blocks</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../analysis/2-static-images.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Showing static visualizations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../analysis/2-altair-hvplot.html" class="sidebar-item-text sidebar-link">
+  <a href="../analysis/3-altair-hvplot.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Altair and Hvplot Charts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../analysis/3-folium.html" class="sidebar-item-text sidebar-link active">
+  <a href="../analysis/4-folium.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Interactive Maps with Folium</span></a>
   </div>
 </li>
@@ -193,7 +199,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#finding-the-shortest-route" id="toc-finding-the-shortest-route" class="nav-link active" data-scroll-target="#finding-the-shortest-route">Finding the shortest route</a></li>
   <li><a href="#examining-trash-related-311-requests" id="toc-examining-trash-related-311-requests" class="nav-link" data-scroll-target="#examining-trash-related-311-requests">Examining Trash-Related 311 Requests</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.dev/MUSA-550-Fall-2023/quarto-website-starter/blob/main/analysis/3-folium.ipynb" class="toc-action">Edit this page</a></p><p><a href="https://github.com/MUSA-550-Fall-2023/quarto-website-starter/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/MUSA-550-Fall-2023/quarto-website-starter/blob/main/analysis/4-folium.ipynb" class="toc-action">View source</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -215,7 +221,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>This post will show examples of embedding interactive maps produced using <a href="https://python-visualization.github.io/folium/latest/">Folium</a>.</p>
+<p>This page is generated from a Jupyter notebook and shows examples of embedding interactive maps produced using <a href="https://python-visualization.github.io/folium/latest/">Folium</a>.</p>
 <section id="finding-the-shortest-route" class="level2">
 <h2 class="anchored" data-anchor-id="finding-the-shortest-route">Finding the shortest route</h2>
 <p>This example finds the shortest route between the Art Musuem and the Liberty Bell using <a href="https://osmnx.readthedocs.io/en/stable/">osmnx</a>.</p>
@@ -231,7 +237,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>art_museum.geometry</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="8">
-<p><img src="3-folium_files/figure-html/cell-5-output-1.svg" class="img-fluid"></p>
+<p><img src="4-folium_files/figure-html/cell-5-output-1.svg" class="img-fluid"></p>
 </div>
 </div>
 <div class="cell" data-slideshow="{&quot;slide_type&quot;:&quot;subslide&quot;}">
@@ -239,7 +245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>liberty_bell.geometry</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="9">
-<p><img src="3-folium_files/figure-html/cell-6-output-1.svg" class="img-fluid"></p>
+<p><img src="4-folium_files/figure-html/cell-6-output-1.svg" class="img-fluid"></p>
 </div>
 </div>
 <p>Now, extract the lat and lng coordinates</p>
@@ -502,7 +508,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>greenwich_geo.squeeze().geometry</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="30">
-<p><img src="3-folium_files/figure-html/cell-16-output-1.svg" class="img-fluid"></p>
+<p><img src="4-folium_files/figure-html/cell-16-output-1.svg" class="img-fluid"></p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
