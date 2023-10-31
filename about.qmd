@@ -1,5 +1,5 @@
 ---
-title: "About Nick"
+title: "About me"
 ---
 
 <!-- Use a grid -->
@@ -7,7 +7,7 @@ title: "About Nick"
 
 <!-- Left column has a width of 4/12 and shows a picture of me -->
 ::: {.g-col-4}
-![](https://www.nickhand.dev/assets/profile.056b70e4.jpg){width=3in}
+![](images/nickhand-profile.jpg){width=3in}
 :::
 
 <!-- Text gets a column with width 8/12 -->
