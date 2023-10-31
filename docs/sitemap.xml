@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/about.html</loc>
-    <lastmod>2023-10-30T13:46:03.768Z</lastmod>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/about.html</loc>
+    <lastmod>2023-10-31T00:20:17.812Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/analysis/4-folium.html</loc>
-    <lastmod>2023-10-30T13:46:03.193Z</lastmod>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/4-folium.html</loc>
+    <lastmod>2023-10-31T00:20:17.181Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/analysis/1-python-code-blocks.html</loc>
-    <lastmod>2023-10-30T13:46:02.288Z</lastmod>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/1-python-code-blocks.html</loc>
+    <lastmod>2023-10-31T00:20:16.242Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/analysis/3-altair-hvplot.html</loc>
-    <lastmod>2023-10-30T13:45:59.028Z</lastmod>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/3-altair-hvplot.html</loc>
+    <lastmod>2023-10-31T00:20:13.006Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/analysis/index.html</loc>
-    <lastmod>2023-10-30T13:45:59.309Z</lastmod>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/index.html</loc>
+    <lastmod>2023-10-31T00:20:13.296Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/analysis/2-static-images.html</loc>
-    <lastmod>2023-10-30T13:46:02.791Z</lastmod>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/analysis/2-static-images.html</loc>
+    <lastmod>2023-10-31T00:20:16.759Z</lastmod>
   </url>
   <url>
-    <loc>https://musa-550-fall-2023.github.io/quarto-website-starter/index.html</loc>
-    <lastmod>2023-10-30T13:46:03.493Z</lastmod>
+    <loc>https://musa-550-fall-2023.github.io/quarto-website-template/index.html</loc>
+    <lastmod>2023-10-31T00:20:17.500Z</lastmod>
   </url>
 </urlset>
