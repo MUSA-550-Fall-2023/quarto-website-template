@@ -32,12 +32,18 @@ website:
         text: Lectures  
       - section: "Resources"
         contents:
-          - resource/install.qmd
-          - resource/common-issues.qmd 
-          - resource/file-paths.qmd
-          - resource/jupyter.qmd
-          - resource/mamba.qmd
-          - resource/python.qmd
+          - href: resource/install.qmd
+            text: "Installation Guide"
+          - href: resource/common-issues.qmd 
+            text: "Common Issues"
+          - href: resource/file-paths.qmd
+            text: "File Paths"
+          - href: resource/jupyter.qmd
+            text: "Jupyter Notebook"
+          - href: resource/mamba.qmd
+            text: "Mamba"
+          - href: resource/python.qmd
+            text: "Python"
       - section: "Cheat Sheets"
         contents:
           - href: cheatsheets/python.pdf
@@ -45,9 +51,9 @@ website:
           - href: cheatsheets/pandas.pdf
             text: "Pandas"
           - href: cheatsheets/conda.pdf
-            text: "Condas"
+            text: "Conda"
           - href: cheatsheets/matplotlib.pdf
-            text: "MatplotLib"
+            text: "Matplotlib"
           - href: cheatsheets/seaborn.pdf
             text: "Seaborn"
 format:
@@ -58,7 +64,3 @@ format:
     code-copy: true
     code-overflow: wrap
     toc: true
-
-
-
-
