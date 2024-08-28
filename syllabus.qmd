@@ -1,0 +1,164 @@
+---
+title: "Syllabus"
+toc: true
+sidebar: true
+---
+
+Welcome to the course syllabus for MUSA 550, **Geospatial Data Science in
+Python**, taught at the University of Pennsylvania in **fall 2024**.
+
+## Overview
+
+This course will provide students with the knowledge and tools to turn data into
+meaningful insights, with a focus on real-world case studies in urban
+planning. Focusing on the latest Python software tools,
+the course will outline the “pipeline” approach to data science. It will teach
+students the tools to gather, visualize, and analyze datasets, and transform 
+results into understandable and compelling narratives. 
+The course is organized into five main
+sections:
+
+1. **Exploratory Data Science**: Students will be introduced to the main tools and 
+  techniques needed to get started analyzing and visualizing data using Python. Importantly, 
+  this section will focus on key programming concepts such as loop, repetition, conditionaly
+  statements, input/output mechanisms.
+2. **Introduction to Geospatial Data Science**: This module will teach 
+students how to work with geospatial datasets
+   using a range of modern Python toolkits.
+3. **Data Ingestion & Big Data**: Students will learn how to collect data
+   through web scraping and APIs, as well as how to work effectively with the
+   large datasets often encountered in real-world applications.
+4. **From Exploration to Storytelling**: With a solid foundation, students 
+   will learn the latest tools to present their analysis results using 
+   web-based formats to transform their insights into interactive stories.
+1. **Geospatial Data Science in the Wild**: Armed with the necessary data
+   science tools, the final module introduces a range of advanced analytic
+   and machine learning techniques using a number of innovative examples from
+   modern researchers.
+
+
+## Logistics
+
+
+### Lecture
+The course will be conducted in a weekly session devoted to lectures, interactive demonstrations, and in-class exercises. Students may team up to try to solve problems together.
+
+
+- Thursday, 5:15 PM to 8:15 PM
+- [David Rittenhouse Laboratory (DRLB), Room A6 (ground floor)](https://facilities.upenn.edu/maps/locations/david-rittenhouse-laboratory)
+
+
+### Contact Info
+- **Instructor**: Eric Delmelle, [ericdel@upenn.edu](mailto:ericdel@upenn.edu)
+- **Teaching Assistant**: TBA, [TBA@upenn.edu](mailto:TBA@design.upenn.edu)
+
+
+### Office Hours
+**Eric:** Office hours will be by appointment via Zoom or in person, preferably around lunch time, or during the weekend.
+
+
+**Teaching assistant:** 
+
+
+### Course Websites
+- Main website: [https://musa-550-fall-2024.github.io](https://musa-550-fall-2024.github.io)
+- Canvas: [https://canvas.upenn.edu/courses/1814385](https://canvas.upenn.edu/courses/1814385)
+
+The course's main website will be the main source of information, including
+the course schedule, weekly content, and guides/resources. The course's GitHub page will have repositories for each week's lectures as well as assignments. Students will also submit their assignments through GitHub.
+
+We will use Canvas signing up for office hours and tracking grades. Canvas Discussion is a Q&A forum that allows students to ask questions related to lecture materials and assignments. 
+
+
+### Assignments
+There are six homework assignments and one required final project at the end 
+of the semester. There are also extra exercises for you to keep up!
+
+For the final project, students will replicate the pipeline approach on a
+dataset (or datasets) of their choosing. Students will be required to use
+several of the analysis techniques taught in the class and produce a web-based
+data visualization that effectively communicates the empirical results to a
+non-technical audience. The final product should also include a description of
+the methods used in each step of the data science process (collection, analysis, and visualization).
+
+
+### Grading
+The grading breakdown is as follows: 50% for homework; 45% for final project,
+5% for participation. Your participation grade will be determined
+by your activity on Ed Discussion — both asking, answering, and reading
+questions.
+
+While you are required to submit all six assignments, the
+assignment with the lowest grade will not count towards your final grade.
+
+I would highly recommend staying  caught up on lectures and assignments as much 
+as possible, but if you need to turn something in a few days late, that’s fine 
+— there’s no penalty but beyond 2 weeks delay, then I will start deducting by a rate of 15% per week.
+
+If you turn in something late, you'll be missing out on valuable, timely feedback.
+
+### Software
+This course relies on use of Python and various related packages and for
+geospatial topics. All software is open-source and freely available. The course
+will require a working installation of Python on your local computer. See the
+[Installation Setup Guide](/resources/install) for
+instructions on how to setup your computer for use in this course.
+
+## Policies
+MUSA 550 is a fast-paced course that covers a lot of topics in 
+a short amount of time. I know that it can be overwhelming and frustrating, 
+particularly as you are trying to learn Python syntax and the topics
+in the course at the same time. But I firmly believe that all students can 
+succeed in this class.
+
+You'll get the most out of the course if you stay up to date on the lectures 
+and assignments. If you fall behind, I know there can be a desire to copy code 
+from the Internet or others to help you complete assignments. Ultimately, this 
+will be detrimental to your progress as an analytics wizard. My goal for this 
+course is for everyone to learn and engage with the material to the best of 
+their ability. 
+
+::: {callout-important}
+If you find yourself falling behind or struggling with Python issues, please 
+ask for help by:
+
+1. Post a question on Canvas Discussion — the fix for your problem might be quick and other students are probably experiencing similar issues.
+1. Come to office hours and discuss issues or larger conceptual questions you are having.
+1. Take advantage of the [free resources](./resource/python.qmd) to help fine-tune your Python skills. 
+:::
+
+And if you are still struggling, reach out and let me know and we'll figure out a strategy to make things work!
+
+### Communication Policies
+
+- Please add the following text into the subject line of emails to us:
+  [MUSA550]. This will help us make sure we don't miss your email!
+- We will use the Canvas Discussion Q&A forum for questions related to lecture material and assignments.
+- To prevent code copying, please do not post long, complete code examples to Ed Discussion.
+- Anonymous posting is enabled on Canvas Discussion — if you have a question that requires
+  a full code example, please use the anonymous feature to post the question.
+- We will also use Canvas for announcements — please make sure your
+  notifications are turned on and you check the website frequently. This will
+  be the primary method of communication for course-wide announcements.
+- If you have larger-scale or conceptual questions on assignments or lecture
+  material, please set up a time to discuss during office hours.
+
+### Group Work
+
+Students are allowed (and encouraged!) to collaborate when working through
+lecture materials or assignments. If you work closely with other students,
+please list the members of your group at the top of your assignment.
+
+### Special Accommodations
+
+There are a number of ongoing situations in the world that may take precedence
+over the course work. If you are experiencing any difficulties outside the
+course, please [contact me](mailto:ericdel@upenn.edu) and accommodations can be made.
+Similarly, if you are having any difficulties with the course schedule,
+attending lectures, or similar, please let us know.
+
+### Academic Integrity
+
+Students are expected to be familiar with and comply with Penn’s Code of
+Academic Integrity, which is available in the Pennbook, or online at
+[https://catalog.upenn.edu/pennbook/code-of-academic-integrity](https://catalog.upenn.edu/pennbook/code-of-academic-integrity).

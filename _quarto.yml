@@ -5,44 +5,51 @@ project:
     port: 3333
 
 website:
-  title: "MUSA 550 Quarto Template"
-  site-url: "https://musa-550-fall-2023.github.io/quarto-website-template" 
-  repo-url: https://github.com/MUSA-550-Fall-2023/quarto-website-template 
-  repo-actions: [source]
+  title: "MUSA 550"
 
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-Nick Hand, 2023"
+    right: "delmelle@gmail.com"
+    left: ""
 
   sidebar:
     logo: "images/course-icon.png"
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://nickhand.dev
-        text: "Personal Website"
       - icon: github
-        href: https://github.com/MUSA-550-Fall-2023/
+        href: https://github.com/MUSA-550-Fall-2024/
         text: "MUSA 550 GitHub"
-      - icon: twitter
-        href: https://twitter.com/nicholashand
-        text: "Nick Hand Twitter"         
 
     style: "docked"
     search: true
     collapse-level: 2
     contents:
       - href: index.qmd
-        text: Welcome
-      - about.qmd
-      - section: analysis/index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: lectures.qmd
+        text: Lectures  
+      - section: "Resources"
         contents:
-          - analysis/1-python-code-blocks.qmd 
-          - analysis/2-static-images.ipynb
-          - analysis/3-altair-hvplot.ipynb
-          - analysis/4-folium.ipynb
-
+          - resource/install.qmd
+          - resource/common-issues.qmd 
+          - resource/file-paths.qmd
+          - resource/jupyter.qmd
+          - resource/mamba.qmd
+          - resource/python.qmd
+      - section: "Cheat Sheets"
+        contents:
+          - href: cheatsheets/python.pdf
+            text: "Python Basics"
+          - href: cheatsheets/pandas.pdf
+            text: "Pandas"
+          - href: cheatsheets/conda.pdf
+            text: "Condas"
+          - href: cheatsheets/matplotlib.pdf
+            text: "MatplotLib"
+          - href: cheatsheets/seaborn.pdf
+            text: "Seaborn"
 format:
   html:
     highlight-style: solarized
