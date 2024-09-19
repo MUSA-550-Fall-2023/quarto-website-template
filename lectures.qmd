@@ -1,0 +1,42 @@
+---
+title: "Weekly Course Content"
+toc: false
+---
+
+
+The course will be broken up into 13 weeks of content,and each week will cover that week's unique topic. Each week will have a recommended set of readings that will help reinforce the content. As we progress through the semester, you will be able to access the weekly content on the sidebar of this page. For each week, you'll find  information about readings and topics, as well as links to the lecture slides. 
+
+## Lecture slides
+The lecture slides are Jupyter notebook files, a mix of executable Python 
+cells, text, and images. Students can access the slide materials using Jupyter notebooks.
+
+The Jupyter notebook files for each week are stored in a repository that is available on Github. On the content page for each week, you will see a link to this repository. Once you navigate to the repository on GitHub, you can download the contents of the repository to your computer and work locally with the notebook files on your laptop. To download the repository contents, look for the green "Code" button and select "Download ZIP".
+
+## Lecture topics
+
+- [Week 1: Exploratory Data Science in Python](https://github.com/MUSA-550-Fall-2023/week-1)  
+  Thursday, August 29
+
+- <span style="color:gray">Week 2:	Data Visualization Fundamentals
+Thursday, September 7</span>
+
+- <span style="color:gray">Week 3:	More Interactive Data Viz, Intro to Vector Data & GeoPandas; HW #1 due	</span>
+
+- <span style="color:gray">Week 4:	Geospatial Analysis & Mapping </span>
+
+- <span style="color:gray">Week 5:	More Geospatial Analysis: Street Networks and Raster Data; HW #2 due	</span>
+
+- <span style="color:gray"> Weeks 6 & 7:	Web Scraping, APIs; HW #3 due	</span>
+
+- <span style="color:gray"> Week 8:	Analyzing and Visualizing Large Datasets	</span>
+
+- <span style="color:gray"> Week 9:	From Notebooks to the Web; HW #4 due</span>
+
+- <span style="color:gray"> Week 10:	Clustering Analytics in Python; HWK 5 due</span>
+	
+- <span style="color:gray"> Weeks 11-12:	Predictive Modeling with Scikit-Learn; HWK 5 due</span>
+
+- <span style="color:gray"> Week 13:	Work on final project</span>
+
+
+
